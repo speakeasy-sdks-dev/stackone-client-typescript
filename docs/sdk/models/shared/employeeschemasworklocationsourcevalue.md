@@ -5,7 +5,9 @@
 ```typescript
 import { EmployeeSchemasWorkLocationSourceValue } from "@stackone/stackone-client-ts/sdk/models/shared";
 
-let value: EmployeeSchemasWorkLocationSourceValue = {};
+let value: EmployeeSchemasWorkLocationSourceValue = [
+  "<value>",
+];
 ```
 
 ## Supported Types

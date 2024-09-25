@@ -9,7 +9,7 @@ let value: ConnectSessionCreate = {
   categories: [
     ConnectSessionCreateCategories.Ats,
     ConnectSessionCreateCategories.Hris,
-    ConnectSessionCreateCategories.HrisLegacy,
+    ConnectSessionCreateCategories.Hris,
     ConnectSessionCreateCategories.Crm,
     ConnectSessionCreateCategories.Iam,
     ConnectSessionCreateCategories.Marketing,

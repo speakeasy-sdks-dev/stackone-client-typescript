@@ -21,7 +21,7 @@ let value: AtsGetAssessmentsPackageResponse = {
     },
   },
   contentType: "<value>",
-  statusCode: 315428,
+  statusCode: 303,
   rawResponse: new Response("{\"message\": \"hello world\"}", {
     headers: { "Content-Type": "application/json" },
   }),

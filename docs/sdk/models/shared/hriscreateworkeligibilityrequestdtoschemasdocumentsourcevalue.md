@@ -6,7 +6,7 @@
 import { HrisCreateWorkEligibilityRequestDtoSchemasDocumentSourceValue } from "@stackone/stackone-client-ts/sdk/models/shared";
 
 let value: HrisCreateWorkEligibilityRequestDtoSchemasDocumentSourceValue =
-  "<value>";
+  8149.66;
 ```
 
 ## Supported Types

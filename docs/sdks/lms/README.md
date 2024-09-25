@@ -37,7 +37,7 @@ Batch Upsert Content
 
 ```typescript
 import { StackOne } from "@stackone/stackone-client-ts";
-import { ContentLanguageEnumValue, LmsUpsertContentRequestDto2 } from "@stackone/stackone-client-ts/sdk/models/shared";
+import { ContentLanguageEnumValue } from "@stackone/stackone-client-ts/sdk/models/shared";
 
 const stackOne = new StackOne({
   security: {
@@ -51,7 +51,7 @@ async function run() {
     lmsBatchUpsertContentRequestDto: {
       items: [
         {
-          active: LmsUpsertContentRequestDto2.True,
+          active: true,
           categories: [
             {
               active: true,

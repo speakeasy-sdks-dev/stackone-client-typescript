@@ -76,12 +76,12 @@ async function run() {
           },
           categoryId: "6530",
           confidential: {
-            sourceValue: true,
+            sourceValue: "public",
             value: HrisDocumentsUploadRequestDtoSchemasValue.True,
           },
           content: "VGhpcyBpc24ndCByZWFsbHkgYSBzYW1wbGUgZmlsZSwgYnV0IG5vIG9uZSB3aWxsIGV2ZXIga25vdyE",
           fileFormat: {
-            sourceValue: true,
+            sourceValue: "abc",
             value: HrisDocumentsUploadRequestDtoSchemasFileFormatValue.Pdf,
           },
           name: "weather-forecast",
@@ -129,7 +129,7 @@ async function run() {
         {
           category: {
             sourceValue: "550e8400-e29b-41d4-a716-446655440000",
-            value: HrisDocumentsUploadRequestDtoValue.NationalId,
+            value: HrisDocumentsUploadRequestDtoValue.OfferLetter,
           },
           categoryId: "6530",
           confidential: {
@@ -138,7 +138,7 @@ async function run() {
           },
           content: "VGhpcyBpc24ndCByZWFsbHkgYSBzYW1wbGUgZmlsZSwgYnV0IG5vIG9uZSB3aWxsIGV2ZXIga25vdyE",
           fileFormat: {
-            sourceValue: {},
+            sourceValue: "abc",
             value: HrisDocumentsUploadRequestDtoSchemasFileFormatValue.Pdf,
           },
           name: "weather-forecast",
@@ -239,7 +239,7 @@ async function run() {
           name: "Training Completion Status",
           remoteId: "8187e5da-dc77-475e-9949-af0f1fa4e4e3",
           remoteValueId: "e3cb75bf-aa84-466e-a6c1-b8322b257a48",
-          value: Completed,
+          value: "Completed",
           valueId: "value_456",
         },
       ],
@@ -260,22 +260,18 @@ async function run() {
           employeeId: "1687-3",
           employmentContractType: {},
           employmentType: {
-            sourceValue: Permanent,
+            sourceValue: "Permanent",
             value: EmploymentSchemasValue.Permanent,
           },
           id: "8187e5da-dc77-475e-9949-af0f1fa4e4e3",
           jobTitle: "Software Engineer",
           payCurrency: "USD",
           payFrequency: {
-            sourceValue: [
-              "Hourly",
-            ],
+            sourceValue: "Hourly",
             value: EmploymentSchemasPayFrequencyValue.Hourly,
           },
           payPeriod: {
-            sourceValue: [
-              "Hour",
-            ],
+            sourceValue: "Hour",
             value: EmploymentSchemasPayPeriodValue.Hour,
           },
           payRate: "40.00",
@@ -418,7 +414,7 @@ async function run() {
           name: "Training Completion Status",
           remoteId: "8187e5da-dc77-475e-9949-af0f1fa4e4e3",
           remoteValueId: "e3cb75bf-aa84-466e-a6c1-b8322b257a48",
-          value: true,
+          value: "Completed",
           valueId: "value_456",
         },
       ],
@@ -439,20 +435,18 @@ async function run() {
           employeeId: "1687-3",
           employmentContractType: {},
           employmentType: {
-            sourceValue: true,
+            sourceValue: "Permanent",
             value: EmploymentSchemasValue.Permanent,
           },
           id: "8187e5da-dc77-475e-9949-af0f1fa4e4e3",
           jobTitle: "Software Engineer",
           payCurrency: "USD",
           payFrequency: {
-            sourceValue: [
-              "Hourly",
-            ],
+            sourceValue: "Hourly",
             value: EmploymentSchemasPayFrequencyValue.Hourly,
           },
           payPeriod: {
-            sourceValue: true,
+            sourceValue: "Hour",
             value: EmploymentSchemasPayPeriodValue.Hour,
           },
           payRate: "40.00",
@@ -3626,7 +3620,7 @@ async function run() {
           name: "Training Completion Status",
           remoteId: "8187e5da-dc77-475e-9949-af0f1fa4e4e3",
           remoteValueId: "e3cb75bf-aa84-466e-a6c1-b8322b257a48",
-          value: Completed,
+          value: "Completed",
           valueId: "value_456",
         },
       ],
@@ -3647,7 +3641,7 @@ async function run() {
           employeeId: "1687-3",
           employmentContractType: {},
           employmentType: {
-            sourceValue: true,
+            sourceValue: "Permanent",
             value: EmploymentSchemasValue.Permanent,
           },
           id: "8187e5da-dc77-475e-9949-af0f1fa4e4e3",
@@ -3823,7 +3817,7 @@ async function run() {
           employeeId: "1687-3",
           employmentContractType: {},
           employmentType: {
-            sourceValue: true,
+            sourceValue: "Permanent",
             value: EmploymentSchemasValue.Permanent,
           },
           id: "8187e5da-dc77-475e-9949-af0f1fa4e4e3",
