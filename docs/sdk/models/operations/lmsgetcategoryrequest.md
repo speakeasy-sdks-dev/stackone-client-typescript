@@ -8,7 +8,7 @@ import { LmsGetCategoryRequest } from "@stackone/stackone-client-ts/sdk/models/o
 let value: LmsGetCategoryRequest = {
   fields: "id,remote_id,name,active",
   id: "<id>",
-  xAccountId: "<value>",
+  xAccountId: "<id>",
 };
 ```
 
