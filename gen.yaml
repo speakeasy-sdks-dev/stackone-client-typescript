@@ -20,6 +20,7 @@ typescript:
   clientServerStatusCodesAsErrors: true
   enumFormat: enum
   flattenGlobalSecurity: false
+  flatteningOrder: body-first
   imports:
     option: openapi
     paths:
