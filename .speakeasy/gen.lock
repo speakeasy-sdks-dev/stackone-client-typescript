@@ -3,8 +3,8 @@ id: 7fa83af8-9e8e-4410-b7e2-cf1d0eaf688b
 management:
   docChecksum: 17ec3916d7a4b1bd06fa13c2a397704e
   docVersion: 1.0.0
-  speakeasyVersion: 1.408.0
-  generationVersion: 2.429.0
+  speakeasyVersion: internal
+  generationVersion: 2.437.1
   releaseVersion: 4.16.1
   configChecksum: db49fae7417050189dd5590952ed9156
   repoURL: https://github.com/StackOneHQ/stackone-client-typescript.git
