@@ -373,9 +373,9 @@ If a HTTP request fails, an operation my also throw an error from the `sdk/model
 
 In addition, when custom error responses are specified for an operation, the SDK may throw their associated Error type. You can refer to respective *Errors* tables in SDK docs for more details on possible error types for each operation. For example, the `deleteAccount` method may throw the following errors:
 
-| Error Type      | Status Code     | Content Type    |
-| --------------- | --------------- | --------------- |
-| errors.SDKError | 4XX, 5XX        | \*/\*           |
+| Error Type      | Status Code | Content Type |
+| --------------- | ----------- | ------------ |
+| errors.SDKError | 4XX, 5XX    | \*/\*        |
 
 ```typescript
 import { StackOne } from "@stackone/stackone-client-ts";
@@ -482,9 +482,9 @@ const sdk = new StackOne({ httpClient });
 
 This SDK supports the following security scheme globally:
 
-| Name                  | Type                  | Scheme                |
-| --------------------- | --------------------- | --------------------- |
-| `username` `password` | http                  | HTTP Basic            |
+| Name                  | Type | Scheme     |
+| --------------------- | ---- | ---------- |
+| `username` `password` | http | HTTP Basic |
 
 You can set the security parameters through the `security` optional parameter when initializing the SDK client instance. For example:
 ```typescript
